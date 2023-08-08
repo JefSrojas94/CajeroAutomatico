@@ -55,11 +55,38 @@ form .link {
     margin-bottom: 15px;
 }
 
-form button {
+form #button-login {
     color: #fff;
     border: none;
     background: linear-gradient(to right,#8800ff,#ce1dae);
     padding: 10px 15px;
     cursor: pointer;
     font-size: 20px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    text-align: center;
+    padding: 20px 25px;
+    box-shadow: 0 5px 10px rgba(71, 3, 6, .7);
+}
+
+section button {
+    color: #fff;
+    border: solid;
+    background: linear-gradient(to right,#8800ff,#ce1dae);
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+section .tittle{
+    color: #252525;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.hide{
+    display: none;
 }
