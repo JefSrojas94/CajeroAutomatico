@@ -63,6 +63,14 @@ form #button-login {
     cursor: pointer;
     font-size: 20px;
 }
+button{
+    color: #fff;
+    border: solid;
+    background: linear-gradient(to right,#8800ff,#ce1dae);
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
 
 section{
     display: flex;

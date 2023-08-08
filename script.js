@@ -6,18 +6,27 @@ const cuentas = [
 console.log(cuentas)
 const username = document.getElementById('username');
 const password = document.getElementById('password');
-const section = document.getElementById('info-cuenta')
+const infocuenta = document.getElementById('pag-user');
 
 function login(){
     if (username.value == cuentas[0].nombre && password.value == cuentas[0].clave ) {
-            
+        const titulo = document.createElement('h2');
+        titulo.textContent = `Bienvenido ${username.value}`; 
+        
+        infocuenta.appendChild(titulo);
 
     }else if (username.value == cuentas[1].nombre && password.value == cuentas[1].clave ) {
+        const titulo = document.createElement('h2');
+        titulo.textContent = `Bienvenido ${username.value}`; 
         
+        infocuenta.appendChild(titulo); 
 
     }else if (username.value == cuentas[2].nombre && password.value == cuentas[2].clave ) {
+        const titulo = document.createElement('h2');
+        titulo.textContent = `Bienvenido ${username.value}`; 
         
-        
+        infocuenta.appendChild(titulo);
+
     }else{
         alert("algo mal")
     }
